@@ -1,0 +1,26 @@
+.filter-list {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ddffdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-list h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.filter-list input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.filter-list .dropdown-button {
+  margin-top: 10px;
+}
